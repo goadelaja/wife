@@ -1,0 +1,79 @@
+h1{
+	color:green;
+	text-align: center;
+}
+
+nav{
+	padding:10px 0;
+	margin:20px 0 0;
+	text-align:center;
+}
+
+nav ul{
+	list-style: none;
+	margin:0 10px;
+}
+
+
+nav li{
+	display:inline-block;
+	padding: 20px;
+	font-size:20px;
+	color: green;
+}
+
+nav a{
+	text-decoration: none;
+	color:green;
+}
+nav a:visited{
+	color: #ea2e93;
+}
+
+nav a.selected, nav a:hover{
+	color: blue;
+}
+
+body{
+
+	background:#edf3f7;
+}
+
+/*******8section**********/
+table tr td{
+	padding-bottom: 40px;
+	padding-left:500px;
+	font-size:20px;
+
+}
+.tab{
+	color:green;
+}
+
+
+
+.search{
+	margin-left: 600px;
+	padding:  5px 40px;
+	font-size:20px;
+	color:green;
+}
+
+#section{
+	min-height: 100%;
+}
+
+#form{
+	overflow: auto;
+	padding-bottom: 50px;
+}
+
+#footer{
+	padding-left:600px;
+	padding-top: 50px;
+	height: 50px;
+	margin-top: 80px;
+	/*background:#6b7175;*/
+	position: relative;
+	clear: both;
+}
