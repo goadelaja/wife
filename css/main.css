@@ -37,6 +37,7 @@ nav a.selected, nav a:hover{
 body{
 
 	background:#edf3f7;
+
 }
 
 /*******8section**********/
@@ -48,6 +49,11 @@ table tr td{
 }
 .tab{
 	color:green;
+
+}
+
+.materials{
+	font-size: 15px;
 }
 
 

@@ -5,22 +5,20 @@ include("inc/header.php");
 ?>
 
   <section id="section">
-    <form id="form">
+    <form action="custregquery.php" method="POST" id="form">
       <table>
+          
           <tr>
-            <td class="tab">Date <input type="date"></td>
+            <td class="tab">Customer Name <input name="customerName" type="text"></td>
           </tr>
           <tr>
-            <td class="tab">Customer Name <input type="text"></td>
+            <td class="tab"> Address <input name="customerAddress" type="text"></td>
           </tr>
           <tr>
-            <td class="tab"> Address <input type="text"></td>
-          </tr>
-          <tr>
-            <td class="tab">Phone Number <input type="text"></td>
+            <td class="tab">Phone Number <input  name="customerPhoneNumber" type="text"></td>
           </tr>
       </table>
-      <button class="search" type="submit">Search</button>
+      <button  class="search" type="submit">Submit</button>
   </form>
   </section>
 

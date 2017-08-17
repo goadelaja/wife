@@ -2,39 +2,40 @@
 $PageTitle = "Heritage Place";
 $ind = "selected";
 include("inc/header.php");
+
  ?>
 		<section id="section">
-			<form id="form">
+			<form id="form" method="POST" action="indexquery.php">
 				<table id="tab">
-					<tr>
-						<td class="tab">Date of Transaction <input type="date" value="<?php echo date('Y-m-d')?>"></td>
-					</tr>
-					<tr>
-						<td class="tab">Customer Name <input type="text" name="customername"></td>
-					</tr>
 					<tr>
 						<td class="tab">Selected Material
 
-							<select>
-									<option value = "Select">Select Materials</option>
-									<option value = "Ankara">Ankara(small)</option>
-									<option value = "Ankara2">Ankara(Big)</option>
-									<option value = "Atiku">Atiku(Small)</option>
-									<option value = "Atiku2">Atiku (Big)</option>
-									<option value = "others">Others</option>
+							<select name="materials" class="materials">
+									<option   value = "Select">Select Materials</option>
+									<option  value = "Ankara">Ankara(small 1)</option>
+					                 <option value = "Ankara">Ankara(small 2)</option>
+					                 <option value = "Ankara">Ankara(small 3)</option>
+									<option value = "Ankara2">Ankara(Big 1)</option>
+				                    <option value = "Ankara2">Ankara(Big 2)</option>
+				                    <option value = "Ankara2">Ankara(Big 3)</option>
+									<option value = "Atiku">Atiku(Small 1)</option>
+					                <option value = "Atiku">Atiku(Small 2)</option>
+					                <option value = "Atiku">Atiku(Small 3)</option>
+					                <option value = "Atiku">Atiku(Small 4)</option>
+									<option value = "Atiku2">Atiku (Big 1)</option>
+				                    <option value = "Atiku2">Atiku (Big 2)</option>
+				                    <option value = "Atiku2">Atiku (Big 3)</option>
+				                    <option value = "Atiku2">Atiku (Big 4)</option>
+									
 							</select>
 						</td>
-					</tr>
-					<tr>
-						<td class="tab">Amount Paid <input type="text" name="amountpaid"></td>
-					</tr>
-					<tr>
-						<td class="tab">Debt owed <input type="text" name="debt"></td>
-					</tr>
-
+          			</tr>
+          
 				</table>
-				<button  class="search" type="submit">Search</button>
+				<button  name="search" class="search" type="submit">Search</button>
 			</form>
+
+      
 		</section>
 		<?php
 include("inc/footer.php");

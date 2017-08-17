@@ -17,7 +17,7 @@
 					<li><a href="custreg.php" class="<?php echo $cust?>">Customer Register</a></li>
 					<li><a href="goodsreg.php" class="<?php echo $good?>">Goods Register</a></li>
 					<li><a href="inventory.php" class="<?php echo $inv?>">Inventory</a></li>
-					<li><a href="account.php" class="<?php echo $acc?>">Account</a></li>
+					<li><a href="account.php" class="<?php echo $acc?>">Transactions</a></li>
 				</ul>
 			</nav>
 		</header>
