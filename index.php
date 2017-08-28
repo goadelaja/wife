@@ -35,6 +35,10 @@ include("inc/header.php");
 				<button  name="submit_search" class="search" type="submit">Search Price</button>
 			</form>
 
+      <form method="GET" action="indexnamequery.php">
+              <input class="cust_2" type="text" name = "search_customer" placeholder="Customer Name"><br>
+              <button  name="submit_search_1" class="search1" type="submit">Search Names</button>
+      </form>
 
 		</section>
 		<?php

@@ -65,6 +65,23 @@ table tr td{
 	color:green;
 }
 
+.search1{
+	margin-left: 600px;
+	padding:  5px 40px;
+	font-size:20px;
+	color:green;
+}
+
+.cust_2{
+	margin-left: 600px;
+	margin-bottom: 30px;
+	padding:  5px 40px;
+	font-size:20px;
+	color:green;
+}
+
+
+
 #section{
 	min-height: 100%;
 }
